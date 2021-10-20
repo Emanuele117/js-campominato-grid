@@ -60,6 +60,14 @@ bottone2.addEventListener('click', function () {
         // creo l'elemento DOM da mettere nella griglia
         const divElementTwo = document.createElement('div');
 
+        // creo un paragrafo
+        const par2 = document.createElement('p')
+
+        // appendo l'elemento creatp al container
+        par2.append('1')
+
+        divElementTwo.append(par2)
+
         //creo una classe da aggiungere al contenitore appena creato
         divElementTwo.className = 'grid_cell_two'
 
@@ -79,9 +87,29 @@ bottone2.addEventListener('click', function () {
 
 const containerThree = document.querySelector('.container_difficolta3');
 
-const bottone3 = document.querySelector('.bottone3');
+const bottone3 = document.getElementById('bottone3');
 
+bottone3.addEventListener('click', function () {
+    for (let i = 0; i < 49; i++) {
 
+        const divElementThree = document.createElement('div');
+
+        const par3 = document.createElement('p')
+
+        par3.append('1')
+
+        divElementThree.append(par3)
+
+        divElementThree.className = 'grid_cell_three'
+
+        containerThree.append(divElementThree)
+
+        divElementThree.addEventListener('click', function () {
+            this.style.backgroundColor = 'blue'
+        })
+
+    }
+})
 
 
 

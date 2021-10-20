@@ -29,6 +29,14 @@ body {
     flex-wrap: wrap;
 }
 
+.container_difficolta3 {
+    width: 800px;
+    min-width: 800px;
+    margin: 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .grid_cell_one {
     width: 80px;
     height: 80px;
@@ -39,4 +47,20 @@ body {
     width: 81px;
     height: 81px;
     border: 1px solid white;
+}
+
+.grid_cell_three {
+    width: 81px;
+    height: 81px;
+    border: 1px solid white;
+}
+
+p {
+    text-align: center;
+    line-height: 75px;
+}
+
+.titolo {
+    margin: 2rem auto;
+    width: 250px;
 }
