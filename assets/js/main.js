@@ -44,6 +44,11 @@ bottone1.addEventListener('click', function () {
 //selezione l'elemento dallas DOM 
 const containerTwo = document.querySelector('.container_difficolta2');
 
+// al click su bottone difficoltà 2 genero una griglia da 1 a 81 con ciclo for
+
+const bottone2 = document.getElementById('bottone2');
+
+
 
 
 
