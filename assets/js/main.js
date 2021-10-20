@@ -39,5 +39,16 @@ bottone1.addEventListener('click', function () {
 })
 
 
+// posso passare alla creazione della griglia n° 2
+
+//selezione l'elemento dallas DOM 
+const containerTwo = document.querySelector('.container_difficolta2');
+
+
+
+
+
+
+
 
 

@@ -15,7 +15,15 @@ body {
 
 .container_difficolta1 {
     width: 800px;
-    min-height: 800px;
+    min-width: 800px;
+    margin: 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container_difficolta2 {
+    width: 800px;
+    min-width: 800px;
     margin: 5rem auto;
     display: flex;
     flex-wrap: wrap;
@@ -24,5 +32,11 @@ body {
 .grid_cell_one {
     width: 80px;
     height: 80px;
+    border: 1px solid white;
+}
+
+.grid_cell_two {
+    width: 81px;
+    height: 81px;
     border: 1px solid white;
 }
