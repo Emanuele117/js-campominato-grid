@@ -49,7 +49,9 @@ const containerTwo = document.querySelector('.container_difficolta2');
 const bottone2 = document.getElementById('bottone2');
 
 
+bottone2.addEventListener('click', function () {
 
+})
 
 
 
