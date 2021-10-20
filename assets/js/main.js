@@ -57,6 +57,9 @@ bottone2.addEventListener('click', function () {
         //creo una classe da aggiungere al contenitore appena creato
         divElementTwo.className = 'grid_cell_two'
 
+        // appendo l'elemento creato al container
+        containerTwo.append(divElementTwo)
+
 
     })
     }
