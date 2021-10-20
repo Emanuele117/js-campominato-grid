@@ -23,6 +23,12 @@ bottone1.addEventListener('click', function () {
         // crreo l'elemento dom da mettere nella griglia
         const divElementOne = document.createElement('div');
 
+        // creo un <p></p>
+        const par1 = document.createElement('p')
+        // appendo l'elemento creatp al container
+        par1.append('1')
+        divElementOne.append(par1)
+
         //creo una classe da aggiungere al contenitore appena creato
         divElementOne.className = 'grid_cell_one'
 
@@ -67,6 +73,18 @@ bottone2.addEventListener('click', function () {
         })
     }
 })
+
+
+// posso passare alla creazione della griglia n° 3
+
+const containerThree = document.querySelector('.container_difficolta3');
+
+const bottone3 = document.querySelector('.bottone3');
+
+
+
+
+
 
 
 
