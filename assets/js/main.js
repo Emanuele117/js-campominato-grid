@@ -50,7 +50,10 @@ const bottone2 = document.getElementById('bottone2');
 
 
 bottone2.addEventListener('click', function () {
+    for (let i = 0; i < 81; i++) {
 
+    })
+    }
 })
 
 
