@@ -3,3 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: grey;
+}
+
+.contenitore_bottoni {
+    width: 250px;
+    margin: 2rem auto;
+}
+
+.container_difficolta1 {
+    width: 800px;
+    min-height: 800px;
+    margin: 5rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid_cell_one {
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+}
