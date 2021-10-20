@@ -54,6 +54,9 @@ bottone2.addEventListener('click', function () {
         // creo l'elemento DOM da mettere nella griglia
         const divElementTwo = document.createElement('div');
 
+        //creo una classe da aggiungere al contenitore appena creato
+        divElementTwo.className = 'grid_cell_two'
+
 
     })
     }
