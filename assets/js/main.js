@@ -51,6 +51,9 @@ const bottone2 = document.getElementById('bottone2');
 
 bottone2.addEventListener('click', function () {
     for (let i = 0; i < 81; i++) {
+        // creo l'elemento DOM da mettere nella griglia
+        const divElementTwo = document.createElement('div');
+
 
     })
     }
