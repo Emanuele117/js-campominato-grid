@@ -60,8 +60,11 @@ bottone2.addEventListener('click', function () {
         // appendo l'elemento creato al container
         containerTwo.append(divElementTwo)
 
-
-    })
+        //attacco un eventListner a ciascun elemento creato nel ciclo
+        divElementTwo.addEventListener('click', function () {
+            // modifico il colore delle celle
+            this.style.backgroundColor = 'blue'
+        })
     }
 })
 
