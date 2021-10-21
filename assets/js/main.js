@@ -19,14 +19,14 @@ const containerOne = document.querySelector('.container_difficolta1');
 const bottone1 = document.getElementById('bottone1');
 
 bottone1.addEventListener('click', function () {
-    for (let i = 0; i < 100; i++) {
+    for (let i = 1; i <= 100; i++) {
         // crreo l'elemento dom da mettere nella griglia
         const divElementOne = document.createElement('div');
 
         // creo un <p></p>
         const par1 = document.createElement('p')
         // appendo l'elemento creatp al container
-        par1.append('1')
+        par1.append(i)
         divElementOne.append(par1)
 
         //creo una classe da aggiungere al contenitore appena creato
@@ -56,7 +56,7 @@ const bottone2 = document.getElementById('bottone2');
 
 
 bottone2.addEventListener('click', function () {
-    for (let i = 0; i < 81; i++) {
+    for (let i = 1; i <= 81; i++) {
         // creo l'elemento DOM da mettere nella griglia
         const divElementTwo = document.createElement('div');
 
@@ -64,7 +64,7 @@ bottone2.addEventListener('click', function () {
         const par2 = document.createElement('p')
 
         // appendo l'elemento creatp al container
-        par2.append('1')
+        par2.append(i)
 
         divElementTwo.append(par2)
 
@@ -90,13 +90,13 @@ const containerThree = document.querySelector('.container_difficolta3');
 const bottone3 = document.getElementById('bottone3');
 
 bottone3.addEventListener('click', function () {
-    for (let i = 0; i < 49; i++) {
+    for (let i = 1; i <= 49; i++) {
 
         const divElementThree = document.createElement('div');
 
         const par3 = document.createElement('p')
 
-        par3.append('1')
+        par3.append(i)
 
         divElementThree.append(par3)
 
